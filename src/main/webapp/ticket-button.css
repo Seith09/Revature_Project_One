@@ -1,0 +1,52 @@
+    *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "Poppins", sans-serif;
+        }
+
+    input {
+        display: flex;
+    }
+
+    body{
+          margin: 0;
+          padding: 0;
+          background: #DBDBDB;
+          height: 100vh;
+          overflow: hidden;
+        }
+
+    .row {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 20px 20px 15px rgba(0,0,0,0.09);
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .submit-button {
+        width: 30%;
+        height: 50px;
+        border: 1px solid;
+        background: #85C7F2;
+        border-radius: 25px;
+        font-size: 18px;
+        color: #e9f4fb;
+        font-weight: 700;
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input[type="submit"]:hover{
+          border-color: #2691d9;
+          transition: .5s;
+        }
+

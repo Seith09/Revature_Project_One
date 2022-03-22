@@ -1,0 +1,142 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.EmployeeLoginServlet</servlet-name>
+    <servlet-class>com.revature.servlets.EmployeeLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ManagerLoginServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ManagerLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.EmployeeProfileServlet</servlet-name>
+    <servlet-class>com.revature.servlets.EmployeeProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ManagerProfileServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ManagerProfileServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.LogoutServlet</servlet-name>
+    <servlet-class>com.revature.servlets.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ReiServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ReiServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ViewPendingServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ViewPendingServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ManagerPendingServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ManagerPendingServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ViewApprovedServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ViewApprovedServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ManagerDenyServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ManagerDenyServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.EmployeeInfo</servlet-name>
+    <servlet-class>com.revature.servlets.EmployeeInfo</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ManagerViewAllServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ManagerViewAllServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>com.revature.servlets.ChangeInfoServlet</servlet-name>
+    <servlet-class>com.revature.servlets.ChangeInfoServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.EmployeeLoginServlet</servlet-name>
+    <url-pattern>/employeeLoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ManagerLoginServlet</servlet-name>
+    <url-pattern>/managerLoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.EmployeeProfileServlet</servlet-name>
+    <url-pattern>/employeeprofile</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ManagerProfileServlet</servlet-name>
+    <url-pattern>/managerprofile</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ReiServlet</servlet-name>
+    <url-pattern>/rei</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ViewPendingServlet</servlet-name>
+    <url-pattern>/employee-pending</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ManagerPendingServlet</servlet-name>
+    <url-pattern>/managerpending</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ViewApprovedServlet</servlet-name>
+    <url-pattern>/approved-requests</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ManagerDenyServlet</servlet-name>
+    <url-pattern>/managerdeny</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.EmployeeInfo</servlet-name>
+    <url-pattern>/employee-info</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ManagerViewAllServlet</servlet-name>
+    <url-pattern>/view-all</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>com.revature.servlets.ChangeInfoServlet</servlet-name>
+    <url-pattern>/change-info</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
+
+

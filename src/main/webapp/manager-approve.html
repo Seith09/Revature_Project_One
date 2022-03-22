@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ticket-button.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+    <body>
+    <nav>
+        <div class="heading">
+            <h2>Company</h2>
+        </div>
+        <form method="post">
+            <ul class="nav-links">
+                <li><a href="manager-home.html">Home</a></li>
+                <li><a href="logout">Logout</a></li>
+            </ul>
+        </form>
+    </nav>
+    <div class="row" class="center" style="margin-top: 150px;">
+        <form action="managerpending" method="get" class="center" style="padding: 10px;">
+            <label>Insert Employee ID to Approve</label>
+            <input type="text" name="approve">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href='navbar.css'>
+    <link rel="stylesheet" href="login.css">
+
+    <style>
+        .button {
+            display: flex;
+            justify-content: center;
+            width: 300px;
+            border-radius: 10px;
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+        }
+        .button-div {
+            margin-top: 100px;
+        }
+
+        p {
+            font-family: "Poppins", sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div class="heading">
+        <h2>Company</h2>
+    </div>
+    <form method="post">
+        <ul class="nav-links">
+            <li><a href="manager-home.html">Home</a></li>
+            <li><a href="logout">Logout</a></li>
+        </ul>
+    </form>
+</nav>
+<div class="button-div">
+    <button class="button"><p><a href="managerpending">Approve Pending Requests</a></p></button>
+    <br>
+    <button class="button"><p><a href="managerdeny">Deny Pending Requests</a></p></button>
+    <br>
+    <button class="button"><p><a href="view-all">View All Requests</a></p></button>
+</div>
+
+</body>
+</html>

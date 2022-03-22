@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Revature Project</title>
+    <link rel="stylesheet" href='navbar.css'>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<nav>
+    <div class="heading">
+        <h2>Company</h2>
+    </div>
+    <form method="post">
+        <ul class="nav-links">
+            <li><a href="manager-home.html">Home</a></li>
+            <li><a href="logout">Logout</a></li>
+        </ul>
+    </form>
+</nav>
+<div class="center">
+    <h1>Manager Login</h1>
+    <form action="managerLoginServlet" method="post" >
+        <div class="txt-field" >
+            <input type="text" required name="email">
+            <label>Email</label>
+        </div>
+        <div class="txt-field" >
+            <input type="password" required name="password">
+            <label>Password</label>
+            <input type="submit" value="login">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
