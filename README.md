@@ -18,7 +18,7 @@ List of features ready and TODOs for future development
 * Submit requests
 * View pending requests
 * Approve/deny requests
-* 
+*
 
 To-do list:
 * Integrate Hibernate in replacement of MySQL
@@ -29,6 +29,7 @@ To-do list:
 git clone command - git clone https://github.com/Seith09/Revature_Project_One.git
 
 > Create a hibernate.cfg.xml file inside the resources folder and provide the information for your local database. The configuration on the page should look like this:
+> Create a local database that stores your admin and employee credentials
 
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE hibernate-configuration PUBLIC
@@ -38,7 +39,7 @@ git clone command - git clone https://github.com/Seith09/Revature_Project_One.gi
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://localhost:3306/project</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/<your SQL database name></property>
         <property name="connection.username"><your username></property>
         <property name="connection.password"><your password></property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
