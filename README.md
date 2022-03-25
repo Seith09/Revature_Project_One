@@ -26,16 +26,27 @@ To-do list:
 
 ## Getting Started
    
-(include git clone command)
-(include all environment setup steps)
+git clone command - git clone https://github.com/Seith09/Revature_Project_One.git
 
-> Be sure to include BOTH Windows and Unix command  
-> Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
+> Create a hibernate.cfg.xml file inside the resources folder and provide the information for your local database. The configuration on the page should look like this:
 
-- All the `code` required to get started
-- Images of what it should look like
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 
-## Usage
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/project</property>
+        <property name="connection.username"><your username></property>
+        <property name="connection.password"><your password></property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <mapping class="com.revature.servlets.ReiServletR"/>
+    </session-factory>
+</hibernate-configuration>
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+> Run the application and click in the console to launch.
 
